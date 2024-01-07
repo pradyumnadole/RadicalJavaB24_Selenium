@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Default suite">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="TestNGB24.ParallelMethod">
+        <methods>
+          <include name="myTest1"/>
+          <exclude name="myTest2"/>
+          <exclude name="myTest3"/>
+         </methods>
+      </class> <!-- TestNGExample.TestNGExample1 -->
+       <class name="TestNGB24.MyGroupA">
+        <methods>
+          <include name="test1"/>
+          <exclude name="test2"/>
+          <exclude name="myTest3"/>
+         </methods>
+      </class> <!-- TestNGExample.TestNGExample1 -->
+    </classes>
+  </test> <!-- Default test -->
+  
+
+  
+  
+</suite> <!-- Default suite -->

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="My Feature1 Suite "  verbose="1">
+	  <test name="Testing Create functionality " preserve-order="true" >
+		<packages>
+      		<package name="basic" />
+      	</packages>
+      </test>
+  
+</suite>

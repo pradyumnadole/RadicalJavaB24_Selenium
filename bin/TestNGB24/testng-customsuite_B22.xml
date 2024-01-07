@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="IciciRegression">
+  <test verbose="2" name="FundTrasfer_UPI">
+    <classes>
+      <class name="UPI.class1"/>
+      <class name="UPI.class2"/>
+    </classes>
+  </test> <!-- Default test -->
+  
+  <test verbose="2" name="FundTrasfer_NetBanking">
+    <classes>
+      <class name="Netbanking.class1"/>
+      <class name="Netbanking.class2"/>
+    </classes>
+  </test> <!-- Default test -->
+  
+</suite> <!-- Default suite -->

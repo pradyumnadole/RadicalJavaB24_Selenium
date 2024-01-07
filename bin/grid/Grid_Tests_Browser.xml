@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="SeleniumGridExample" parallel="methods" thread-count="3" verbose="2">
+
+  <test name="myTest1">    
+      <parameter name="browser" value="chrome"/> 
+      <classes>
+          <class name="grid.GridTest1"></class>
+      </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
